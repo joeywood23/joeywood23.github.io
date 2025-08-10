@@ -1,0 +1,73 @@
+body {
+  max-width: 45em;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.4em;
+  font-size: 16px;
+  font-family: 'Noto Sans Display', sans-serif;
+  color: #444;
+}
+
+pre {
+  font-size: smaller;
+  overflow: auto;
+  padding: 1em;
+}
+
+code {
+  line-height: 1;
+}
+
+p {
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  line-height: 1.2em;
+}
+
+img, video {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 2px 6px lightgrey;
+}
+
+.teaser {
+  margin: 2em 0;
+}
+
+.teaser h2, header h1 {
+  margin-bottom: 0;
+}
+
+.metadata {
+  margin-top: 0;
+  font-size: smaller;
+}
+
+footer, .rsslink, .showall, .subtext {
+  font-size: small;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+.menu header {
+  display: none;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 0.2em;
+}
+
+details summary {
+  text-decoration: underline;
+  cursor: pointer;
+}

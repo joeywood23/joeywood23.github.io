@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Halcyon Times'
 theme = 'plain-html'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
